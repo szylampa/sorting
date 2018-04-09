@@ -8,7 +8,7 @@ public class Main {
         int[] tablica1 = {10,9,8,7,6,5,4,3,2,1};
 
         System.out.println("Przed" + Arrays.toString(tablica1));
-        BubbleSort.sort(tablica1);
+        InsertionSort.sort(tablica1);
         System.out.println("Po" + Arrays.toString(tablica1));
 
     }
